@@ -8,7 +8,7 @@ def resolve_subdomains(target_domain, wordlist):
     for subdomain in subdomains:
         try:
             sub_target = f"{subdomain}.{target_domain}"
-            result = resolver.resolve(sub_target, "A", lifetime=1.0)
+            result = resolver.resolve(sub_target, "A", lifetime=1.0) # A = principal | MX = e-mail | TXT = infos
 
             for ip in result:
                 print(f"{sub_target} -> {ip}")
