@@ -21,7 +21,7 @@ def resolve_subdomains(target_domain, wordlist):
 
 
 def main():
-    target_domain = input("Enter the target domain (e.g., example.com): ")
+    target_domain = input("Enter the target domain (example.com): ")
     wordlist_file = input("Enter the path to the wordlist file: ")
 
     try:
