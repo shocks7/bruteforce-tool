@@ -1,6 +1,6 @@
 # Subdomain Brute Force Tool
 
-This Python script is a subdomain brute-force tool designed to identify active subdomains of a specific target domain. It utilizes a user-provided wordlist to generate potential subdomains and then performs DNS queries to determine which of these subdomains are active. 
+This application is a subdomain brute-force tool designed to identify active subdomains of a specific target domain. It utilizes a user-provided wordlist to generate potential subdomains and then performs DNS queries to determine which of these subdomains are active. 
 
 ## Usage
 
